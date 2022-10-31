@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Build') {
            steps {
-             mvn clean package
+             echo "This is new branch"
            }
     }
   }
