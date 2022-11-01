@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Build') {
            steps {
-             echo "This is new branch"
+             echo "This is ${BUILD_NUMBER} build"
            }
     }
   }
